@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="ssh://git@github.com" name="github"/>
+	<default remote="github" sync-j="5"/>
+	<project name="michael-elomar/alchemy-private" path="build/alchemy" revision="master"/>
+  <project name="michael-elomar/dragon_build_private" path="build/dragon_build" revision="master">
+	  <linkfile dest="build.sh" src="root-build.sh"/>
+	  <linkfile dest="track-branch.sh" src="root-track-branch.sh"/>
+  </project>
+  <project name="michael-elomar/glfw" path="packages/glfw" revision="master"/>
+  <project name="michael-elomar/libneutron" path="packages/libneutron" revision="master"/>
+  <project name="michael-elomar/phantasis-product" path="products/phantasis" revision="master"/>
+</manifest>

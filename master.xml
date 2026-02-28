@@ -9,5 +9,6 @@
   </project>
   <project name="michael-elomar/glfw" path="packages/glfw" revision="master"/>
   <project name="michael-elomar/libneutron" path="packages/libneutron" revision="master"/>
+  <project name="michael-elomar/libnexus" path="packages/libnexus" revision="master"/>
   <project name="michael-elomar/phantasis-product" path="products/phantasis" revision="master"/>
 </manifest>
